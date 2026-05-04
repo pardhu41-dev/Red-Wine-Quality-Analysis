@@ -15,6 +15,8 @@ To ensure the analysis was accurate, I performed the following "Data Cleaning" s
 -Duplicate Removal: Identified and removed duplicate rows to prevent bias in statistical outcomes.  
 -Handling Outliers: Managed extreme values in variables like total sulfur dioxide to prevent skewed visualizations.  
 -Missing Values: Verified that the dataset contains no null values across the 11 physicochemical inputs.
+<img width="1101" height="362" alt="Screenshot 2026-05-04 095220" src="https://github.com/user-attachments/assets/39ad1982-acb9-4001-9b6d-c058f2ae7b44" />
+
 
 Visualizations:
 1. Correlation Heatmap
@@ -23,8 +25,12 @@ The heatmap was used to identify the relationship between inputs (like pH, sulph
 <img width="1038" height="763" alt="Screenshot 2026-05-04 093510" src="https://github.com/user-attachments/assets/c906fccb-b53d-4657-ad57-a53062755974" />
 
 
-3. Quality Distribution
+2. Quality Distribution
 A count plot confirmed the lack of balance between high, medium, and low-quality wine samples.
+<img width="1100" height="413" alt="Screenshot 2026-05-04 095203" src="https://github.com/user-attachments/assets/6eab783c-5764-4b49-94ee-d4242240a826" />
+
+
+
 
 Conclusion:
 Chemical properties are a strong indicator of wine quality. For this specific dataset, high-quality red wines tend to have higher alcohol content and lower volatile acidity.
