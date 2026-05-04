@@ -15,6 +15,8 @@ To ensure the analysis was accurate, I performed the following "Data Cleaning" s
 -Duplicate Removal: Identified and removed duplicate rows to prevent bias in statistical outcomes.  
 -Handling Outliers: Managed extreme values in variables like total sulfur dioxide to prevent skewed visualizations.  
 -Missing Values: Verified that the dataset contains no null values across the 11 physicochemical inputs.
+
+Before analyzing, I checked for distribution and outliers. As seen below, the dataset is heavily concentrated in the mid-range quality scores.
 <img width="1101" height="362" alt="Screenshot 2026-05-04 095220" src="https://github.com/user-attachments/assets/39ad1982-acb9-4001-9b6d-c058f2ae7b44" />
 
 
@@ -27,6 +29,7 @@ The heatmap was used to identify the relationship between inputs (like pH, sulph
 
 2. Quality Distribution
 A count plot confirmed the lack of balance between high, medium, and low-quality wine samples.
+My analysis revealed that Alcohol and Volatile Acidity are the primary drivers of quality.
 <img width="1100" height="413" alt="Screenshot 2026-05-04 095203" src="https://github.com/user-attachments/assets/6eab783c-5764-4b49-94ee-d4242240a826" />
 
 
